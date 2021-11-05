@@ -38,8 +38,6 @@ model.fc = nn.Linear(num_fc_ftr, 201)
 model=model.to(device)
 #print(model)
 
-model.eval()
-
 # Initialize a list to store the predictions.
 predictions = []
     
